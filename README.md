@@ -2,7 +2,8 @@
 Employee Turnover Prediction & HR Analytics
 
 This project provides an end-to-end data science solution to identify at-risk employees. By analyzing historical HR data, we built a machine learning pipeline to predict the likelihood of an employee leaving the company, allowing for proactive retention strategies.
-📂 Project Structure
+
+Project Structure
 Plaintext
 
 project/
@@ -41,7 +42,7 @@ To ensure a robust and reproducible model, a Scikit-Learn Preprocessing Pipeline
 
     Class Imbalance: Handled the 5:1 imbalance (Stayed vs. Left) using class_weight='balanced' within the model.
 
-📊 Model Performance
+ Model Performance
 
 The current model (Logistic Regression) prioritizes Recall, ensuring we capture as many "Leavers" as possible.
 Metric (Class: Left)	Score
@@ -51,7 +52,7 @@ F1-Score	57%
 
     Note: The high recall indicates the model is highly effective at identifying at-risk employees, though it produces some false positives (employees flagged as "leaving" who may actually stay).
 
-🚀 How to Run
+ How to Run
 
     Ensure you have the following libraries installed:
     Bash
